@@ -18,7 +18,7 @@ public class AdministratorBulletinTest extends TestHarness{
 		super.clickOnMenu("Administrator", "List Bulletins");
 		
 		super.checkListingExists();
-		
+		super.sortListing(0, "asc");
 		super.checkColumnHasValue(recordIndex, 0, heading);
 		super.checkColumnHasValue(recordIndex, 1, instationMoment);
 		super.checkColumnHasValue(recordIndex, 2, pieceOfText);
