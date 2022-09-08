@@ -57,7 +57,7 @@ public class ChefFineDishShowService implements AbstractShowService<Chef, FineDi
 		final String defaultCurrency = this.configRepository.getDefaultCurrency();
 		final MoneyExchange me = new MoneyExchange(entity.getBudget(), defaultCurrency);
 		model.setAttribute("moneyExchange", me.getExchange());
-		request.unbind(entity, model, "status", "code", "request", "budget", "startsAt", "finishesAt", "link", "epicure.organisation", "epicure.assertion","epicure.link");
+		request.unbind(entity, model, "status", "code", "request", "budget", "startsAt", "finishesAt", "link","epicure.userAccount.username", "epicure.organisation", "epicure.assertion","epicure.link");
 		
 		
 		

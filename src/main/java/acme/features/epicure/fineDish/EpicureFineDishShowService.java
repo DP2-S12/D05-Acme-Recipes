@@ -32,10 +32,10 @@ public class EpicureFineDishShowService implements AbstractShowService<Epicure, 
 	public boolean authorise(final Request<FineDish> request) {
 		assert request != null;
 
-		int id = request.getPrincipal().getActiveRoleId();
-		Collection<FineDish> finedishs = this.repository.findAllFineDishByEpicureId(id);
-		int finedish_id = request.getModel().getInteger("id");
-		FineDish finedish = this.repository.findFineDishById(finedish_id);
+		final int id = request.getPrincipal().getActiveRoleId();
+		final Collection<FineDish> finedishs = this.repository.findAllFineDishByEpicureId(id);
+		final int finedish_id = request.getModel().getInteger("id");
+		final FineDish finedish = this.repository.findFineDishById(finedish_id);
 		return finedishs.contains(finedish);
 	}
 
@@ -63,7 +63,7 @@ public class EpicureFineDishShowService implements AbstractShowService<Epicure, 
 		final MoneyExchange me = new MoneyExchange(entity.getBudget(), defaultCurrency);
 		model.setAttribute("moneyExchange", me.getExchange());
 		
-		request.unbind(entity, model, "status", "code", "request","publishedStatus", "budget",  "startsAt", "finishesAt",  "link", "chef.organisation","chef.assertion","chef.link");
+		request.unbind(entity, model, "status", "code", "request","publishedStatus", "budget",  "startsAt", "finishesAt",  "link","chef.userAccount.username", "chef.organisation","chef.assertion","chef.link");
 		
 	}
 

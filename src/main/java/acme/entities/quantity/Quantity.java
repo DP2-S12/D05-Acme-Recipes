@@ -28,16 +28,14 @@ public class Quantity extends AbstractEntity{
 	@Basic(optional = true)
 	protected Amount amount;
 	
-	@ManyToOne
+	@ManyToOne(optional = false)
 	@Valid
 	@NotNull
-	@Basic(optional = false)
 	protected CookingItem cookingitem;
 	
-	@ManyToOne
+	@ManyToOne(optional = false)
 	@Valid
 	@NotNull
-	@Basic(optional = false)
 	protected Recipe recipe;
 
 }

@@ -13,29 +13,6 @@ public class AuthenticatedBulletinTest extends TestHarness{
 	@Order(10)
 	public void positiveCase(final int recordIndex,final String heading, final String instationMoment, final String pieceOfText,final String critic , final String link) {
 		
-		//PRUEBA COMO CHEF
-
-		/*super.signIn("administrator", "administrator");
-		
-		super.clickOnMenu("Authenticated", "List Bulletins");
-		
-		super.checkListingExists();
-		
-		super.checkColumnHasValue(recordIndex, 0, heading);
-		super.checkColumnHasValue(recordIndex, 1, instationMoment);
-		super.checkColumnHasValue(recordIndex, 2, link);
-		super.checkColumnHasValue(recordIndex, 3, critic);
-		
-		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
-		
-		super.checkInputBoxHasValue("title", heading);
-		super.checkInputBoxHasValue("creation", instationMoment);
-		super.checkInputBoxHasValue("link", link);
-		super.checkInputBoxHasValue("critic", critic);
-
-		super.signOut();
-		*/
 		
 		//PRUEBA COMO CHEF
 

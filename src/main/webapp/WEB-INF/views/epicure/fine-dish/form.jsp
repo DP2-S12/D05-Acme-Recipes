@@ -17,6 +17,7 @@
 			<acme:input-moment readonly="true" code="authenticated.epicure.finedish.form.label.startsAt" path="startsAt"/>
 			<acme:input-moment readonly="true" code="authenticated.epicure.finedish.form.label.finishesAt" path="finishesAt"/>
 			<acme:input-url readonly="true" code="authenticated.epicure.finedish.form.label.link" path="link"/>	
+			<acme:input-textbox readonly="true" code="authenticated.epicure.finedish.form.label.chef.username" path="chef.userAccount.username"/>
 			<acme:input-textarea readonly="true" code="authenticated.epicure.finedish.form.label.chef.organisation" path="chef.organisation"/>
 			<acme:input-textarea readonly="true" code="authenticated.epicure.finedish.form.label.chef.assertion" path="chef.assertion"/>
 			<acme:input-url readonly="true" code="authenticated.epicure.finedish.form.label.chef.link" path="chef.link"/>
