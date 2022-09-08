@@ -15,6 +15,7 @@
 	<acme:input-textbox code="chef.finedish.form.label.finishesAt" path="finishesAt" readonly="true"/>
 	<acme:input-url code="chef.finedish.form.label.link" path="link" readonly="true"/>
 
+	<acme:input-textbox code="chef.finedish.form.label.epicureusername" path="epicure.userAccount.username" readonly="true"/>
 	<acme:input-textbox code="chef.finedish.form.label.epicureorganisation" path="epicure.organisation" readonly="true"/>
 	<acme:input-textbox code="chef.finedish.form.label.epicureassertion" path="epicure.assertion" readonly="true"/>
 	<acme:button code="chef.finedish.form.buttom.memorandum" action="/chef/memorandum/list-by-fineDish?id=${id}"/>

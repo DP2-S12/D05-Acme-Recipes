@@ -56,3 +56,5 @@ epicure.memorandum.form.button.create = Create new memorandum asociated
 epicure.item.title.codeNotUnique = Duplicate code
 
 detected.isSpam= Spam detected
+
+authenticated.epicure.finedish.form.label.chef.username = Chef username

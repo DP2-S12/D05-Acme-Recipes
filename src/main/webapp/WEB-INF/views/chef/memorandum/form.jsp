@@ -23,8 +23,8 @@
 	<acme:input-textbox code="chef.fineDish.list.label.fineDish.identify.code" path="fineDish.code"/>
 	<acme:input-textbox code="chef.fineDish.list.label.fineDish.identify.request" path="fineDish.request"/>
 	<acme:input-money code="chef.fineDish.list.label.fineDish.identify.budget" path="fineDish.budget"/>
-	<acme:input-textbox code="chef.fineDish.list.label.fineDish.identify.startsAt" path="fineDish.startsAt"/>
-	<acme:input-textbox code="chef.fineDish.list.label.fineDish.identify.finishesAt" path="fineDish.finishesAt"/>
+	<acme:input-moment code="chef.fineDish.list.label.fineDish.identify.startsAt" path="fineDish.startsAt"/>
+	<acme:input-moment code="chef.fineDish.list.label.fineDish.identify.finishesAt" path="fineDish.finishesAt"/>
 	<acme:input-textbox code="chef.fineDish.list.label.fineDish.identify.link" path="fineDish.link"/>
 	
 	</jstl:when>	
